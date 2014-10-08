@@ -9,7 +9,10 @@ There is a growing mountain of evidence that some government and commercial inst
 
 The roll-out of “advanced Web APIs”, which is really an euphemism for APIs that access device capabilities and other personally identifiable data, will add more data that needs to be carefully protected by all those involved: the public, businesses, browser makers, standards setting bodies, operating system vendors, hardware manufacturers, and law makers. A balance needs to be struct between adhering with local and international laws, protecting the rights of individuals, and being able to conduct business across the globe [8].
 
-## Common Issues ##
+## Use Cases 
+Common issues occuring within use cases and use cases are given below.
+
+### Common Issues ###
 
 When conducting this use case analysis it was found that a number of privacy and UX related issues continued to be occur:
 
@@ -20,7 +23,7 @@ When conducting this use case analysis it was found that a number of privacy and
 * __No Revoke__: If a user changes their mind about allowing location services, there is usually no way for them to revoke geolocation access without either quitting the application, uninstalling the application, or finding some other convoluted way to revoke access to geolocation services (e.g., having to globally disable location services on the device through the “Settings” menu). 
 * __Clear Origin__: it is not clear which origin is requesting the geolocation data. 
 
-## Use Cases 
+
 ### Use Cases derived from Native Applications ###
 
 Here is a collection of geolocation permissions flows from a number of high profile native applications featured in iOS and Android application stores.
