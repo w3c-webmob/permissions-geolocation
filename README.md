@@ -18,7 +18,11 @@ The roll-out of “advanced Web APIs”, which is really an euphemism for APIs t
 
 When conducting this use case analysis it was found that a number of privacy and UX related issues continued to be occur:
 
-* '''Time duration:''' the permission alert / process gave no idication of how long the permission will remain in an not active or active state. 
+* __Time duration:__ the permission alert / process gave no idication of how long the permission will remain in an not active or active state. 
+* __How data is being used__: the permissions alert / process gave no indication of how the user's data would be used, and whether this would be sent to a third party, or who these third parties are.
+* __Geolocation Provider:__ the permissions alert / process gave no indication of who the provider of the geolocation data is, or how to change this.
+* __Prompt is Modal__: the user cannot fully view or interact with the underlying application to make an assessment of what the application might do with the positioning data, without first rejecting geolocation access to the website.
+* __No Revoke__: If a user changes their mind about allowing location services, there is usually no way for them to revoke geolocation access without either quitting the application, uninstalling the application, or finding some other convoluted way to revoke access to geolocation services (e.g., having to globally disable location services on the device through the “Settings” menu). 
 
 ## Use Cases ## 
 ### Use Cases derived from Native Applications ###
@@ -61,4 +65,13 @@ Confidentiality:
 
 The examples above show a range of differenct permissions model methods. These can be classified as follows:
 
+## Other Issues ##
 
+Click Through: modal confirmation dialog lead to ‘click fatigue’: whereby users simply become accustomed to clicking “OK” to every prompt without grasping the consequences of their actions
+
+Privacy policies buried: “Settings” menu of the iPhone, under the “Legal” option, which contains about 50 pages of legalese and no searchable index!
+
+## Requirements ##
+
+### User Privacy Controls ###
+List requirements
